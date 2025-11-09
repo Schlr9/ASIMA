@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-# ASIMA
-Sistem Penentuan Kemampuan diri berbasis AI (Chatbot)
-=======
-## Dokumentasi Fungsi Sistem
+ASIMA
+Sistem Penentuan Kemampuan diri berbasis AI (Chatbo)
+Dokumentasi Fungsi Sistem
 
 Struktur ini berisi file Markdown terpisah untuk setiap fungsi utama dalam sistem (PHP dan JavaScript). Setiap berkas mencakup: deskripsi singkat, parameter, nilai balik, efek samping, dan potensi error.
 
-### PHP
+- PHP
 
 - config/chatbot.php
   - handleGeneralQuestion
@@ -56,5 +54,4 @@ Struktur ini berisi file Markdown terpisah untuk setiap fungsi utama dalam siste
 - js/visuals.js: render grafik radar
 - templates: fungsi inline (profil, login)
 
-Catatan: Beberapa fungsi ada dalam dua lokasi (root dan config). Dokumentasi per fungsi menyebutkan semua lokasi terkait.
->>>>>>> c530372 (ASIMA)
+Catatan: Beberapa fungsi ada dalam dua lokasi (root dan config). Dokumentasi per fungsi menyebutkan semua lokasi terkait. c530372 (ASIMA)
