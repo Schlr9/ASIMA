@@ -1,0 +1,260 @@
+NPM : 2106700001; PW : fazrian
+NPM : 2106700002; PW : 12345
+NPM : 2106700003; PW : 12345
+NPM : 2106700004; PW : 12345
+NPM : 2106700005; PW : 12345
+NPM : 2106700006; PW : 12345
+NPM : 2106700007; PW : 12345
+NPM : 2106700008; PW : 12345
+NPM : 2106700009; PW : 12345
+
+ $api_key = 'AIzaSyBApbt_QEIxZWRXY5V5ebw1wRfiKyYDWuI'; // Ganti dengan API Key Anda
+    $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $api_key;
+    AIzaSyCY-FraOC9xtfYM109xbd07hfNKqGymdOU
+
+
+API KEY = curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+         AIzaSyB8HkMqO2o1j_g5Mq5nK0zHzjyaQXAz5tQ
+
+AIzaSyAY9iSkW2CKS4sIxuJPK5N7Xw6DjecIE-M
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyAY9iSkW2CKS4sIxuJPK5N7Xw6DjecIE-M' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
+
+  curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyD8kpEqZ0T7n9yppmlqtN93EcaRVi7tJDI' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
+
+  curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyB9gyo0cJoft-NLDQV4dYm8_eveJQGXbBI' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
+
+PERTANYAAN : 
+
+### Kecerdasan Linguistik (Word Smart) ✍️
+
+Kapasitas untuk menggunakan kata-kata secara efektif, baik lisan maupun tulisan. 
+
+Saya lebih suka menyusun proposal atau laporan tertulis yang detail untuk menyampaikan ide-ide penting.
+
+Saat rapat, saya sering menjadi orang yang merangkum diskusi dan memperjelas poin-poin yang ada.
+
+Saya menikmati permainan kata atau humor verbal dan sering menggunakannya untuk mencairkan suasana.
+
+Saya dapat dengan mudah memahami dan menjelaskan isi dari dokumen teknis atau kontrak yang rumit.
+
+Saya merasa percaya diri saat harus berbicara di depan umum atau melakukan presentasi.
+
+Menulis email yang persuasif atau jelas adalah salah satu keunggulan saya.
+
+Saya sering mengingat informasi dengan lebih baik setelah mendengarkannya (misalnya dari podcast atau audiobook). 
+
+Saya gemar mempelajari istilah-istilah baru yang berkaitan dengan industri atau bidang pekerjaan saya.
+
+Orang lain mengatakan bahwa saya adalah pendongeng yang baik, mampu membuat sebuah narasi menjadi menarik. 
+
+Saya sering diminta untuk menjadi juru bicara atau perwakilan tim karena kemampuan komunikasi saya.
+
+### Kecerdasan Logis-Matematis (Number/Logic Smart) 🔢
+
+Kapasitas untuk menggunakan angka secara efektif dan melakukan penalaran yang baik. 
+
+Saya secara alami mencari pola, keteraturan, atau urutan logis dalam data atau informasi. 
+
+Sebelum mengambil keputusan besar, saya selalu mencoba menganalisis pro dan kontra secara sistematis.
+
+Saya menikmati tugas-tugas yang melibatkan pembuatan anggaran, analisis data, atau metrik performa.
+
+Saya merasa nyaman bekerja dengan bahasa pemrograman, formula spreadsheet, atau sistem berbasis aturan lainnya. 
+
+Saya sering mengajukan pertanyaan "mengapa" untuk memahami sebab-akibat di balik sebuah masalah.
+
+Saya dapat dengan cepat mengidentifikasi kelemahan atau inkonsistensi dalam sebuah argumen atau rencana.
+
+Saya lebih suka merencanakan proyek dengan membuat jadwal yang detail dan terstruktur.
+
+Saya tertarik dengan perkembangan terbaru di bidang sains dan teknologi. 
+
+Memecahkan teka-teki logika atau brainteaser adalah kegiatan yang saya nikmati. 
+
+Saya percaya bahwa sebagian besar masalah memiliki penjelasan yang rasional dan dapat dipecahkan. 
+
+### Kecerdasan Spasial (Picture Smart) 🎨
+
+Kemampuan untuk mempersepsikan dunia visual-spasial secara akurat. 
+
+Saya sering memvisualisasikan hasil akhir sebuah proyek dalam pikiran saya bahkan sebelum dimulai.
+
+Saya lebih suka belajar dari diagram, grafik, atau video daripada membaca teks panjang. 
+
+Saya memiliki kepekaan terhadap estetika, seperti desain, warna, dan komposisi visual.
+
+Saya dapat dengan mudah membayangkan bagaimana sebuah objek terlihat dari sudut pandang yang berbeda. 
+
+Saya sering membuat coretan (doodle) atau sketsa saat sedang berpikir atau dalam rapat. 
+
+Memberikan arahan jalan atau menata perabotan di ruangan adalah hal yang mudah bagi saya. 
+
+Saya pandai merakit sesuatu hanya dengan melihat diagram, tanpa perlu membaca instruksi tertulis.
+
+Saya menikmati penggunaan software desain grafis, presentasi visual, atau aplikasi pemodelan 3D.
+
+Saya sering menggunakan kode warna untuk mengatur file, catatan, atau jadwal saya. 
+
+Saya sering melihat gambaran visual yang jelas saat saya memejamkan mata untuk berpikir. 
+
+### Kecerdasan Kinestetik-Jasmani (Body Smart) 🏃‍♀️
+
+Keahlian dalam menggunakan seluruh tubuh untuk mengekspresikan ide dan perasaan. 
+
+Saya memahami sebuah proses dengan lebih baik ketika saya bisa terlibat langsung secara fisik.
+
+Saya tidak suka duduk diam terlalu lama dan membutuhkan jeda untuk bergerak. 
+
+Saya mendapatkan ide-ide terbaik saat sedang berjalan, berolahraga, atau melakukan aktivitas fisik lainnya. 
+
+Saya memiliki koordinasi tangan-mata yang baik untuk tugas-tugas seperti mengetik cepat, menggunakan peralatan, atau merakit.
+
+Saya lebih suka mendemonstrasikan cara melakukan sesuatu daripada hanya menjelaskannya dengan kata-kata.
+
+Saya sering menggunakan gestur atau bahasa tubuh yang ekspresif saat berkomunikasi. 
+
+Pekerjaan yang melibatkan kunjungan lapangan, kerja di workshop, atau interaksi fisik lebih menarik bagi saya.
+
+Saya belajar keterampilan baru dengan cara mempraktikkannya berulang kali. 
+
+Saya dapat merasakan "firasat" atau sensasi fisik yang terkait dengan pengambilan keputusan. 
+
+Saya menikmati pekerjaan yang hasilnya nyata dan bisa disentuh atau dipegang.
+
+### Kecerdasan Musikal (Music Smart) 🎶
+
+Kapasitas untuk mempersepsikan, mengubah, dan mengekspresikan bentuk-bentuk musik. 
+
+Saya dapat dengan mudah mengenali ketika sebuah nada fals atau irama tidak pas. 
+
+Saya sering memiliki lagu atau melodi yang terngiang-ngiang di kepala saya saat bekerja. 
+
+Saya dapat mengingat informasi lebih baik jika disajikan dalam bentuk ritmis atau seperti lagu.
+
+Saya sering mengetuk-ngetuk jari atau kaki mengikuti irama tertentu saat berpikir. 
+
+Saya peka terhadap suara-suara di lingkungan sekitar (misalnya, dengungan AC, suara printer). 
+
+Suasana hati saya mudah dipengaruhi oleh musik yang sedang diputar di latar belakang.
+
+Saya menggunakan musik untuk membantu saya fokus, mendapatkan energi, atau bersantai saat bekerja.
+
+Saya dapat mengapresiasi struktur dan pola dalam sebuah komposisi musik.
+
+Saya dapat dengan mudah meniru atau mengulang sebuah pola ritmis setelah mendengarnya.
+
+Saya bisa merasakan "aliran" atau ritme dalam sebuah presentasi atau pidato yang bagus.
+
+### Kecerdasan Interpersonal (People Smart) 🤝
+
+Kemampuan untuk mempersepsikan dan membedakan suasana hati, niat, dan perasaan orang lain. 
+
+Saya pandai merasakan suasana hati atau dinamika dalam sebuah rapat atau kelompok.
+
+Saya secara alami mengambil peran sebagai pemimpin atau fasilitator dalam sebuah tim. 
+
+Saya lebih suka bertukar pikiran (brainstorming) dengan orang lain daripada berpikir sendirian.
+
+Saya mampu memberikan kritik atau umpan balik yang membangun tanpa menyinggung perasaan orang lain.
+
+Saya menikmati berkolaborasi dalam proyek dan merasa energi saya meningkat saat bekerja dengan tim.
+
+Saya mudah berempati dan memahami sudut pandang rekan kerja saya. 
+
+Saya suka mengajar atau menjadi mentor bagi rekan kerja yang lebih junior. 
+
+Saya dapat membangun hubungan kerja yang kuat dan positif dengan berbagai macam orang.
+
+Saya adalah pendengar yang baik; orang lain sering merasa nyaman berbagi masalah dengan saya. 
+
+Saya sering menjadi penengah ketika ada perbedaan pendapat atau konflik dalam tim. 
+
+### Kecerdasan Intrapersonal (Self Smart) 🤔
+
+Pengetahuan diri dan kemampuan untuk bertindak secara adaptif berdasarkan pengetahuan itu. 
+
+Saya sangat menyadari kekuatan, kelemahan, dan batasan profesional saya. 
+
+Saya memiliki motivasi internal yang kuat dan tidak terlalu bergantung pada pujian dari luar.
+
+Saya secara sadar menetapkan tujuan untuk pengembangan diri dan karir saya. 
+
+Saya membutuhkan waktu untuk refleksi pribadi agar dapat memproses pengalaman dan membuat keputusan terbaik. 
+
+Saya lebih suka bekerja pada proyek-proyek yang selaras dengan nilai-nilai dan minat pribadi saya.
+
+Saya mampu mengelola emosi dan tetap tenang di bawah tekanan.
+
+Saya belajar dari kesalahan dan kegagalan saya di masa lalu untuk menjadi lebih baik. 
+
+Saya memiliki rasa percaya diri yang kuat dan tidak mudah terpengaruh oleh pendapat orang lain.
+
+Saya lebih memilih otonomi dan kebebasan dalam cara saya menyelesaikan pekerjaan.
+
+Saya sering menulis jurnal atau membuat catatan pribadi untuk menjernihkan pikiran saya. 
+
+### Kecerdasan Naturalis (Nature Smart) 🌿
+
+Keahlian dalam mengenali dan mengklasifikasikan berbagai spesies flora dan fauna di lingkungannya. 
+
+Saya pandai mengenali pola dan mengkategorikan informasi yang tampaknya tidak berhubungan.
+
+Saya sering menggunakan analogi dari alam untuk menjelaskan konsep bisnis atau teknis.
+
+Saya mampu melihat bagaimana perubahan kecil dalam satu bagian sistem dapat memengaruhi keseluruhan.
+
+Saya tertarik pada asal-usul bahan baku atau siklus hidup produk yang dikerjakan perusahaan saya.
+
+Saya merasa terganggu jika lingkungan kerja saya tidak teratur atau tidak seimbang.
+
+Saya menikmati pekerjaan yang berhubungan dengan sistem yang hidup, seperti pertanian, bioteknologi, atau ilmu lingkungan.
+
+Saat melakukan analisis, saya secara alami mengelompokkan item ke dalam taksonomi atau hierarki.
+
+Saya sering mengamati interaksi dan hubungan dalam "ekosistem" kantor atau pasar.
+
+Saya bisa membedakan produk atau layanan yang serupa berdasarkan fitur-fitur kecil yang membedakannya.
+
+Saya merasa ide-ide baru sering muncul saat saya berada di lingkungan alami, seperti taman atau pantai.

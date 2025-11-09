@@ -1,0 +1,95 @@
+--- NEW REQUEST AT 2025-10-13 14:55:33 ---
+PROMPT: test
+HISTORY (RAW): [
+    {
+        "text": "Halo Mahasiswa! Saya Asisten Mahasiswa virtual. Apa yang bisa saya bantu hari ini?",
+        "sender": "bot"
+    },
+    {
+        "text": "test",
+        "sender": "user"
+    },
+    {
+        "text": "Maaf, terjadi sedikit gangguan saat menghubungi asisten AI. 400 ",
+        "sender": "bot"
+    },
+    {
+        "text": "test",
+        "sender": "user"
+    },
+    {
+        "text": "Maaf, terjadi sedikit gangguan saat menghubungi asisten AI. 400 ",
+        "sender": "bot"
+    },
+    {
+        "text": "test",
+        "sender": "user"
+    }
+]
+PAYLOAD SENT TO GOOGLE: {"contents":[{"text":"Halo Mahasiswa! Saya Asisten Mahasiswa virtual. Apa yang bisa saya bantu hari ini?","sender":"bot"},{"text":"test","sender":"user"},{"text":"Maaf, terjadi sedikit gangguan saat menghubungi asisten AI. 400 ","sender":"bot"},{"text":"test","sender":"user"},{"text":"Maaf, terjadi sedikit gangguan saat menghubungi asisten AI. 400 ","sender":"bot"},{"text":"test","sender":"user"},{"role":"user","parts":[{"text":"test"}]}],"systemInstruction":{"parts":[{"text":"Peran Anda: Anda adalah 'Asima', seorang teman sebaya yang empatik di universitas. Anda BUKAN psikolog. Panggil pengguna 'Mahasiswa'. Jadilah pendengar aktif, validasi perasaan mereka, dan ajukan pertanyaan terbuka. Jangan pernah memberikan diagnosis. Jika pengguna menyebutkan kata-kata krisis parah (menyakiti diri\/bunuh diri), HENTIKAN percakapan suportif dan SEGERA berikan respons template: 'Terima kasih sudah berbagi, Mahasiswa. Karena aku AI, aku tidak bisa memberikan bantuan yang kamu butuhkan, tapi ada orang profesional yang siap membantumu. Tolong hubungi layanan darurat terdekat.'"}]}}
+HTTP CODE RECEIVED: 400
+RAW RESPONSE FROM GOOGLE: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"text\" at 'contents[0]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[0]': Cannot find field.\nInvalid JSON payload received. Unknown name \"text\" at 'contents[1]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[1]': Cannot find field.\nInvalid JSON payload received. Unknown name \"text\" at 'contents[2]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[2]': Cannot find field.\nInvalid JSON payload received. Unknown name \"text\" at 'contents[3]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[3]': Cannot find field.\nInvalid JSON payload received. Unknown name \"text\" at 'contents[4]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[4]': Cannot find field.\nInvalid JSON payload received. Unknown name \"text\" at 'contents[5]': Cannot find field.\nInvalid JSON payload received. Unknown name \"sender\" at 'contents[5]': Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "contents[0]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[0]': Cannot find field."
+          },
+          {
+            "field": "contents[0]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[0]': Cannot find field."
+          },
+          {
+            "field": "contents[1]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[1]': Cannot find field."
+          },
+          {
+            "field": "contents[1]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[1]': Cannot find field."
+          },
+          {
+            "field": "contents[2]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[2]': Cannot find field."
+          },
+          {
+            "field": "contents[2]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[2]': Cannot find field."
+          },
+          {
+            "field": "contents[3]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[3]': Cannot find field."
+          },
+          {
+            "field": "contents[3]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[3]': Cannot find field."
+          },
+          {
+            "field": "contents[4]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[4]': Cannot find field."
+          },
+          {
+            "field": "contents[4]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[4]': Cannot find field."
+          },
+          {
+            "field": "contents[5]",
+            "description": "Invalid JSON payload received. Unknown name \"text\" at 'contents[5]': Cannot find field."
+          },
+          {
+            "field": "contents[5]",
+            "description": "Invalid JSON payload received. Unknown name \"sender\" at 'contents[5]': Cannot find field."
+          }
+        ]
+      }
+    ]
+  }
+}
+
+CURL ERROR (if any): 
+
