@@ -348,7 +348,7 @@ function saveTestResult($pdo, $userId, $scores, $system_recommendation, $ai_reco
  */
 function getGeminiResponseTest(string $prompt, ?string $model = null, array $options = [], bool $return_raw = false) {
     // API Key Anda
-    $apiKey = "AIzaSyCGVG8li2Ow0VueZ5NUN-7AObxe8LGTjAg"; 
+    $apiKey = "API-Key"; 
     
     // Endpoint sudah benar (menggunakan ?key=...)
     $endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" . $apiKey;
