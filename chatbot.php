@@ -138,7 +138,7 @@ function getLatestTestResult($pdo, $userId) {
  * [MODIFIKASI] Mengirim prompt ke Gemini API dengan instruksi non-empatik dan konteks tes.
  */
 function getGeminiResponse($prompt, $userName, $history = [], $latest_test_result = null, $simple_mode = false) {
-    $api_key = 'AIzaSyCGVG8li2Ow0VueZ5NUN-7AObxe8LGTjAg';
+    $api_key = 'API-KEY';
     $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" . $api_key;
 
     // [MODIFIKASI] Instruksi sistem diubah menjadi profesional dan non-empatik.
